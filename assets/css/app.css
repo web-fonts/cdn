@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background: #f9f9f9;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    color: #888;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.search {
+    border-radius: 4px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.list {
+    border: 1px solid #ddd;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.list__item {
+    background: white;
+    border-bottom: 1px dashed #ddd;
+    padding: 20px;
+    position: relative;
+}
+
+.list__item:hover {
+    background: #f9f9f9;
+}
+
+.list__item:hover .input-code {
+    background: white;
+}
+
+.list__item:last-of-type {
+    border-bottom: 0;
+}
+
+.list__title {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 0 30px;
+}
+
+.list__title a {
+    text-decoration: none;
+    color: #0377A2;
+}
+
+.list__title a:hover {
+    text-decoration: underline;
+}
+
+.btn-demo {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 3px 5px;
+    background: #00a8e6;
+    font-size: 10px;
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: 2px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+
+.input-code {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    display: block;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.label-code {
+    margin-bottom: 8px;
+    display: block;
+    cursor: pointer;
+}
+
+.alert {
+    border-radius: 4px;
+    padding: 20px;
+    text-shadow: 0 1px 0 #fff;
+    background: #fff1f0;
+    color: #d85030;
+    border: 1px solid rgba(216, 80, 48, .3);
+}

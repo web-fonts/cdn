@@ -1,1 +1,47 @@
-hello world
+<!doctype html>
+<html lang="en" ng-app="cdn">
+<head>
+    <meta charset="UTF-8">
+    <title>Web-Fonts CDN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <script>
+        var fonts = ["ALK Life","ALK Rex Bold","ALK Rounded Mtav Med","ALK Rounded Nusx Med","ALK Sanet","ALK Tall Mtavruli","ALK Tall Nusxuri","ALK Tommaso","ALKBasri-Light","ALKDots","ArchyEDT-Bold","ArchyEDT-Thin","Arial GEO Bold","Arial GEO BoldItalic","Arial GEO Italic","Arial GEO","BPG Algeti Compact","BPG Algeti","BPG Arial","BPG Banner Caps","BPG Banner SuperSquare Caps","BPG Banner SuperSquare","BPG Banner","BPG Boxo-Boxo","BPG Boxo","BPG Classic Medium","BPG DedaEna Block","BPG DedaEna Nonblock","BPG ExtraSquare Mtavruli","BPG ExtraSquare","BPG Glaho Arial","BPG Glaho Bold","BPG Glaho Traditional","BPG Glaho","BPG Ingiri Arial","BPG Ingiri","BPG Irubaqidze","BPG LE Studio 02 Caps","BPG LE Studio 02","BPG Mikheil Stefane","BPG Mrgvlovani Caps","BPG Mrgvlovani","BPG Nateli Mtavruli","BPG Nateli","BPG Nino Elite Caps","BPG Nino Elite Cond Caps","BPG Nino Elite Cond","BPG Nino Elite Exp Caps","BPG Nino Elite Exp","BPG Nino Elite Round Cond","BPG Nino Elite Round","BPG Nino Elite Ultra Caps","BPG Nino Elite Ultra","BPG Nino Elite","BPG Nino Mkhedruli Bold","BPG Nino Mkhedruli Book","BPG Nino Mkhedruli","BPG Nino Mtavruli Bold","BPG Nino Mtavruli Book","BPG Nino Mtavruli","BPG No9","BPG Nostalgia Bold","BPG Nostalgia","BPG Nuskha Modern","BPG ParaGraph Chveulebrivi","BPG Phone Sans Bold Italic","BPG Phone Sans Bold","BPG Phone Sans Italic","BPG Phone Sans","BPG Square Mtavruli","BPG Square","BPG SuperSquare Mtavruli","BPG Ucnobi","BPG Venuri","DejaVu Sans","Gugeshashvili_Rachveli","KA_KOLHETI","KA_LORTKIPANIDZE","MG BitNeon Chaos","MG BitNeon Hollow","MG BitNeon","MG Glaho Drunk"];
+    </script>
+
+</head>
+
+<body class="ng-cloak">
+
+    <div ng-controller="MainController" class="container">
+
+        <div class="header">
+            <h1>Web-Fonts CDN</h1>
+            <h3>non-production use ONLY (alpha)</h3>
+        </div>
+
+        <input type="text" ng-model="query" spellcheck="false" autocomplete="off" class="search" placeholder="search in {{ fonts.length }} web-fonts...">
+
+        <div class="list" ng-show="(fonts | filter:query).length">
+            <div class="list__item" ng-repeat="font in fonts | filter:query">
+                <h2 class="list__title"><a href="//web-fonts.ge/{{ font | slug }}/" target="_blank">{{ font }}</a></h2>
+                <div class="usage">
+                    <label class="label-code" for="html-{{ $index }}"> HTML: </label>
+                    <input id="html-{{ $index }}" type="text" ng-click="selectText($event)" class="input-code" readonly spellcheck="false" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.web-fonts.ge/fonts/{{ font | slug }}/css/{{ font | slug }}.min.css&quot;&gt;" />
+                    <label class="label-code" for="css-{{ $index }}"> CSS: </label>
+                    <input id="css-{{ $index }}" type="text" ng-click="selectText($event)" class="input-code"  readonly spellcheck="false" value="body { font-family: &quot;{{ font }}&quot;; }" />
+                </div>
+            </div>
+        </div>
+
+        <div class="alert" ng-hide="(fonts | filter:query).length">
+            Web-font with name <strong>{{ query }}</strong> not found.
+        </div>
+
+    </div>
+
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
