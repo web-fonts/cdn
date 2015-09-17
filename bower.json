@@ -1,6 +1,7 @@
 {
-	"name" : "cdn.web-fonts.ge",
-	"dependencies": {
-		"web-fonts-all" : "*"
-	}
+  "name" : "cdn.web-fonts.ge",
+  "private": ,
+  "dependencies": {
+    "web-fonts-all" : "*"
+  }
 }
