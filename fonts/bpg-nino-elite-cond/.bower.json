@@ -1,0 +1,48 @@
+{
+  "name": "bpg-nino-elite-cond",
+  "description": "BPG Nino Elite Cond Web-Font Package",
+  "version": "1.0.0",
+  "keywords": [
+    "ttf",
+    "woff",
+    "woff2",
+    "svg",
+    "font",
+    "web-font",
+    "bpg-nino-elite-cond"
+  ],
+  "main": [
+    "css/bpg-nino-elite-cond.css"
+  ],
+  "homepage": "https://github.com/web-fonts/bpg-nino-elite-cond",
+  "authors": [
+    "Lado Lomidze <lado.lomidze@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/bpg-nino-elite-cond.git"
+  },
+  "license": [
+    "MIT",
+    "CC-BY-NC-ND-4.0"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.md",
+    "font.json",
+    "package.json"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "6b92d174bc21bbae5b5cbe0ae82e6ecdab66bdcb"
+  },
+  "_source": "git://github.com/web-fonts/bpg-nino-elite-cond.git",
+  "_target": "~1.0.0",
+  "_originalSource": "bpg-nino-elite-cond"
+}

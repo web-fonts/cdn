@@ -1,0 +1,48 @@
+{
+  "name": "bpg-glaho-arial",
+  "description": "BPG Glaho Arial Web-Font Package",
+  "version": "1.0.0",
+  "keywords": [
+    "ttf",
+    "woff",
+    "woff2",
+    "svg",
+    "font",
+    "web-font",
+    "bpg-glaho-arial"
+  ],
+  "main": [
+    "css/bpg-glaho-arial.css"
+  ],
+  "homepage": "https://github.com/web-fonts/bpg-glaho-arial",
+  "authors": [
+    "Lado Lomidze <lado.lomidze@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/bpg-glaho-arial.git"
+  },
+  "license": [
+    "MIT",
+    "CC-BY-NC-ND-4.0"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.md",
+    "font.json",
+    "package.json"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "25df5ffddee6defd65e867d429c1121cbf534d77"
+  },
+  "_source": "git://github.com/web-fonts/bpg-glaho-arial.git",
+  "_target": "~1.0.0",
+  "_originalSource": "bpg-glaho-arial"
+}

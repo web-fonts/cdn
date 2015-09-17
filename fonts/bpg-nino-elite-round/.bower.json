@@ -1,0 +1,48 @@
+{
+  "name": "bpg-nino-elite-round",
+  "description": "BPG Nino Elite Round Web-Font Package",
+  "version": "1.0.0",
+  "keywords": [
+    "ttf",
+    "woff",
+    "woff2",
+    "svg",
+    "font",
+    "web-font",
+    "bpg-nino-elite-round"
+  ],
+  "main": [
+    "css/bpg-nino-elite-round.css"
+  ],
+  "homepage": "https://github.com/web-fonts/bpg-nino-elite-round",
+  "authors": [
+    "Lado Lomidze <lado.lomidze@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/bpg-nino-elite-round.git"
+  },
+  "license": [
+    "MIT",
+    "CC-BY-NC-ND-4.0"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.md",
+    "font.json",
+    "package.json"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "fcc91042dc9d71f46fae7f0d425e721f630ae046"
+  },
+  "_source": "git://github.com/web-fonts/bpg-nino-elite-round.git",
+  "_target": "~1.0.0",
+  "_originalSource": "bpg-nino-elite-round"
+}

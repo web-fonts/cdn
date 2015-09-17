@@ -1,0 +1,47 @@
+{
+  "name": "bpg-extrasquare-mtavruli",
+  "description": "BPG ExtraSquare Mtavruli Web-Font Package",
+  "version": "1.0.0",
+  "keywords": [
+    "ttf",
+    "woff",
+    "woff2",
+    "svg",
+    "font",
+    "web-font",
+    "bpg-extrasquare-mtavruli"
+  ],
+  "main": [
+    "css/bpg-extrasquare-mtavruli.css"
+  ],
+  "homepage": "https://github.com/web-fonts/bpg-extrasquare-mtavruli",
+  "authors": [
+    "Lado Lomidze <lado.lomidze@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/bpg-extrasquare-mtavruli.git"
+  },
+  "license": [
+    "MIT",
+    "CC-BY-NC-ND-4.0"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.md",
+    "font.json"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "9afd7ed4e3043b492cda8bbf7f38b0b1e8e60eb2"
+  },
+  "_source": "git://github.com/web-fonts/bpg-extrasquare-mtavruli.git",
+  "_target": "~1.0.0",
+  "_originalSource": "bpg-extrasquare-mtavruli"
+}

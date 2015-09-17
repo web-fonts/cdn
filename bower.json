@@ -1,0 +1,6 @@
+{
+	"name" : "cdn.web-fonts.ge",
+	"dependencies": {
+		"web-fonts-all" : "*"
+	}
+}

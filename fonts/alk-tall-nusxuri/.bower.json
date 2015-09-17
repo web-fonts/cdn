@@ -1,0 +1,48 @@
+{
+  "name": "alk-tall-nusxuri",
+  "description": "ALK Tall Nusxuri Web-Font Package",
+  "version": "1.0.0",
+  "keywords": [
+    "ttf",
+    "woff",
+    "woff2",
+    "svg",
+    "font",
+    "web-font",
+    "alk-tall-nusxuri"
+  ],
+  "main": [
+    "css/alk-tall-nusxuri.css"
+  ],
+  "homepage": "https://github.com/web-fonts/alk-tall-nusxuri",
+  "authors": [
+    "Lado Lomidze <lado.lomidze@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/alk-tall-nusxuri.git"
+  },
+  "license": [
+    "MIT",
+    "CC-BY-NC-ND-4.0"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.md",
+    "font.json",
+    "package.json"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "99e02f50acd0b01414fa91c0447d0fb21651ebd6"
+  },
+  "_source": "git://github.com/web-fonts/alk-tall-nusxuri.git",
+  "_target": "~1.0.0",
+  "_originalSource": "alk-tall-nusxuri"
+}
