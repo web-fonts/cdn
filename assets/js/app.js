@@ -15,6 +15,6 @@ app.controller('MainController', function($scope) {
 
 app.filter('slug', function() {
     return function(input) {
-        return input.toLowerCase().replace(/[^a-z_]/g, '-').replace(/_/g, '-');
+        return input.toLowerCase().replace(/ /g, '-').replace(/_/g, '-');
     }
 });
